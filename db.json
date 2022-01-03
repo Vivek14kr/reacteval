@@ -1,0 +1,20 @@
+{
+  "Recipe": [
+    {
+      "title": "burger",
+      "ingredients": "bread,cauliflower",
+      "time": "30min",
+      "image": "C:\\fakepath\\2021-12-01 (31).png",
+      "instructions": "cook",
+      "id": 1
+    },
+    {
+      "title": "dhjkfsdkfj",
+      "ingredients": "dfkjsdfj",
+      "time": "34r32",
+      "image": "",
+      "instructions": "kjfkdsjk",
+      "id": 2
+    }
+  ]
+}

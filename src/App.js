@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import {
+  AddReceipe
+} from './Components/AddReceipe.jsx'
+import {
+  ShowReceipe
+} from './Components/Showreccard.jsx'
+import {Showrecinfo} from "./Components/Showrecinfo"
 function App() {
+
+
+const boxClick = ()=>{
+  
+  }
+  
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <div className="view">
+      < AddReceipe/>
+        
+      </div>
+      <h3>Reload after adding recepie to see the information</h3>
+       < div className = "view"> 
+       <ShowReceipe />
+       </div >
+        < div >
+        <Showrecinfo/>
+        </div >
     </div>
   );
 }
